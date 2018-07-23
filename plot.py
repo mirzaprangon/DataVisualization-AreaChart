@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-x1 = pd.ExcelFile("E:\\Data.xlsx")
+x1 = pd.ExcelFile("Data.xlsx")
 sheets = x1.sheet_names
 df = x1.parse(sheets[0])
 
